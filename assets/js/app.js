@@ -22,8 +22,7 @@ const btn = document.querySelectorAll(".btn");
 
 // ARRAY
 
-const buttons = [
-  one, two, three, four, five, six, seven, eight, nine, zero, plus, minus, multiply, divide, decimal];
+const buttons = [one, two, three, four, five, six, seven, eight, nine, zero, plus, minus, multiply, divide, decimal];
 
 // BUTTONS FUNCTIONS
 
