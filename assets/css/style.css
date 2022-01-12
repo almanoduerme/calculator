@@ -10,12 +10,16 @@
 }
 
 .title {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
   font-size: 2rem;
+  border: 1px solid black;
   font-weight: 700;
   color: black;
-  margin-bottom: 1rem;
   text-align: center;
-  margin-top: 0.6rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
 }
 
 .calculatorContainer {
@@ -36,6 +40,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
   border: 1px solid black;
 }
 
@@ -62,10 +67,12 @@
 
 .btn-equals {
   width: 100%;
-  background-color: pink;
+  height: 6vh;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
-.btn-equals .btn {
+.btn-equals .equals {
   width: 100%;
   height: 100%;
   font-size: 1.5rem;
