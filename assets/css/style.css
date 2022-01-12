@@ -77,3 +77,38 @@
   height: 100%;
   font-size: 1.5rem;
 }
+
+.footer {
+  width: 30%;
+  margin: 0 auto;
+  height: 6vh;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContainer {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fab {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.fab:hover {
+  color: rgba(0, 0, 0, 0.726);
+}
