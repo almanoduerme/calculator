@@ -112,3 +112,45 @@
 .fab:hover {
   color: rgba(0, 0, 0, 0.726);
 }
+
+@media screen and (max-width: 1366px) {
+  .display-content {
+    height: 4rem;
+  }
+
+  .footer {
+    height: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    width: 50%;
+    margin: 1rem auto;
+  }
+  .calculatorContainer {
+    width: 50%;
+    margin: 1rem auto;
+  }
+  .footer {
+    width: 50%;
+    margin: 1rem auto;
+    height: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .calculatorContainer {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .footer {
+    width: 80%;
+    margin: 1rem auto;
+    height: 3.4rem;
+  }
+}
